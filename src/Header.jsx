@@ -2,7 +2,7 @@ export function Header() {
   return (
     <header>
       <nav>
-        <a href="#">Home</a> | <a href="#">Link</a>
+        <a href="#">About Me</a> | <a href="#">Contact Info</a>
       </nav>
     </header>
   );
