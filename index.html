@@ -1,169 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sam Wells: Portfolio Website</title>
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sam Wells: Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
     integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
-    <!-- Update these with my own fonts if i want -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+  <!-- Update these with my own fonts if i want -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet">
 
-    <link rel="stylesheet" href="src/index.css">
+  <link rel="stylesheet" href="src/index.css">
 
-  </head>
-  
-  <body>
-    <header>
-      <div class="logo">
-        <img src="src/assets/samwells.png" alt="">
-      </div>
+</head>
 
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#skills" class="nav__link">Technical Toolkit</a></li>
-          <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-          <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
-        </ul>
-      </nav>
-    </header>
- 
-    <!--Introduction-->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hey, I'm <strong>Sam Wells 👋</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">fullstack engineer</p>
-      <img src="src/assets/sam-linkedin-pic.jpg" alt="pic of sam" class="intro__img">
-    </section>
+<body>
+  <header>
 
-    <!--My Services-->
-    <section class="my-services" id="services">
-      <h2 class="section__title section__title--services">Technical Toolkit</h2>
-      <div class="services">
-        <div class="service">
-          <h3>Languages</h3>
-          <ul>
-            <li>Ruby</li>
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-        </div>
-        <div class="service">
-          <h3>Frameworks & Libraries</h3>
-          <ul>
-            <li>Rails</li>
-            <li>React</li>
-            <li>Next.js</li>
-            <li>Bootstrap</li>
-            <li>Tailwind CSS</li>
-            <li>Material UI</li>
-          </ul>
-        </div>
-        <div class="service">
-          <h3>Databases & Tools</h3>
-          <ul>
-            <li>Postgres</li>
-            <li>SQL</li>
-            <li>Docker</li>
-            <li>JIRA</li>
-            <li>Confluence</li>
-            <li>Asana</li>
-          </ul>
-        </div>
-        <div class="service">
-          <h3>Methodologies</h3>
-          <ul>
-            <li>OOP</li>
-            <li>Git</li>
-            <li>Agile</li>
-            <li>REST APIs</li>
-            <li>Testing</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!--About Me-->
-    <section class="about-me" id="about">
-      <h2 class="section__title section__title--about">Who I am</h2>
-      <p class="section__subtitle section__subtitle--about">Fullstack Engineer based out of ATX</p>
-
-      <div class="about-me__body">
-        <p>
-      I am a tech professional with 8 years of experience in the field of Customer Success, where I excelled at delivering
-      exceptional service and building strong relationships with clients. Recently, I transitioned into the realm of Fullstack
-      software engineering after completing the Actualize coding bootcamp, which equipped me with the necessary skills to
-      tackle complex coding challenges. I am driven by a deep passion for problem-solving, building innovative solutions, and
-      my unwavering commitment to continual learning in the ever-evolving tech landscape.
-        </p>
-
-        <p>
-          Outside of work, I channel my creativity into making electronic music and proudly supporting all of my Boston sports teams.
-        </p>
-
-      </div>
-
-      <img src="src/assets/samwells-who_i_am.JPG" alt="sam in a suit" class="about-me__img">
-    </section>
-
-    <!--My Work-->
-    <section class="my-work" id="work">
-      <h2 class="section__title">My Projects</h2>
-      <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-
-      <div class="portfolio">
-        <!-- Portfolio item 01 -->
-        <a href="#" class="portfolio__item">
-          <img src="src/assets/portfolio-moviegen.png" alt="" class="portfolio__img">
-        </a>
-        
-        <!-- Portfolio item 02 -->
-        <a href="#" class="portfolio__item">
-          <img src="src/assets/portfolio-artnook.png" alt="" class="portfolio__img">
-        </a>
-
-        <!-- Portfolio item 03 -->
-        <a href="#" class="portfolio__item">
-          <img src="src/assets/portfolio-kickvault.png" alt="" class="portfolio__img">
-        </a>
-       
-
-      </div>
-    </section>
-
-    <footer class="footer">
-      <a href="contact" class="btn">Get in touch</a>
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a class="social-list__link" href="mailto:sfwells0518@gmail.com">
-            <i class="fas fa-envelope"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/sfwells0518">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://www.linkedin.com/in/sam-wells-12191832/">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#skills" class="nav__link">Technical Toolkit</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+        <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
       </ul>
-    </footer>
+    </nav>
+  </header>
+
+  <!--Introduction-->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hey, I'm <strong>Sam Wells 👋</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">fullstack engineer</p>
+    <img src="src/assets/sam-linkedin-pic.jpg" alt="pic of sam" class="intro__img">
+  </section>
+
+  <!--My Services-->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">Technical Toolkit</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Languages</h3>
+        <ul>
+          <li>Ruby</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+      <div class="service">
+        <h3>Frameworks & Libraries</h3>
+        <ul>
+          <li>Rails</li>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>Bootstrap</li>
+          <li>Tailwind CSS</li>
+          <li>Material UI</li>
+        </ul>
+      </div>
+      <div class="service">
+        <h3>Databases & Tools</h3>
+        <ul>
+          <li>Postgres</li>
+          <li>SQL</li>
+          <li>Docker</li>
+          <li>JIRA</li>
+          <li>Confluence</li>
+          <li>Asana</li>
+        </ul>
+      </div>
+      <div class="service">
+        <h3>Methodologies</h3>
+        <ul>
+          <li>OOP</li>
+          <li>Git</li>
+          <li>Agile</li>
+          <li>REST APIs</li>
+          <li>Testing</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--About Me-->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">Fullstack Engineer based out of ATX</p>
+
+    <div class="about-me__body">
+      <p>
+        I am a tech professional with 8 years of experience in the field of Customer Success, where I excelled at
+        delivering
+        exceptional service and building strong relationships with clients. Recently, I transitioned into the realm of
+        Fullstack
+        software engineering after completing the Actualize coding bootcamp, which equipped me with the necessary skills
+        to
+        tackle complex coding challenges. I am driven by a deep passion for problem-solving, building innovative
+        solutions, and
+        my unwavering commitment to continual learning in the ever-evolving tech landscape.
+      </p>
+
+      <p>
+        Outside of work, I channel my creativity into making electronic music and proudly supporting all of my Boston
+        sports teams.
+      </p>
+
+    </div>
+
+    <img src="src/assets/samwells-who_i_am.JPG" alt="sam in a suit" class="about-me__img">
+  </section>
+
+  <!--My Work-->
+  <section class="my-work" id="work">
+    <h2 class="section__title">My Projects</h2>
+    <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+    <div class="portfolio">
+      <!-- Portfolio item 01 -->
+      <a href="#" class="portfolio__item">
+        <img src="src/assets/portfolio-moviegen.png" alt="" class="portfolio__img">
+      </a>
+
+      <!-- Portfolio item 02 -->
+      <a href="#" class="portfolio__item">
+        <img src="src/assets/portfolio-artnook.png" alt="" class="portfolio__img">
+      </a>
+
+      <!-- Portfolio item 03 -->
+      <a href="#" class="portfolio__item">
+        <img src="src/assets/portfolio-kickvault.png" alt="" class="portfolio__img">
+      </a>
 
 
-    <div id="root"></div>
-    <script src="src/index.jsx"></script>
-  </body>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <a href="contact" class="btn">Get in touch</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="mailto:sfwells0518@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/sfwells0518">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/sam-wells-12191832/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+
+  <div id="root"></div>
+  <script src="src/index.jsx"></script>
+</body>
+
 </html>
